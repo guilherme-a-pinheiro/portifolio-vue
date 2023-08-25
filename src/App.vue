@@ -2,6 +2,7 @@
   <div>
     <HomePage />
     <SobreMim />
+    <MySkills />
     <MeuContato />
   </div>
 </template>
@@ -9,7 +10,8 @@
 <script>
 import HomePage from './components/HomePage.vue';
 import SobreMim from './components/SobreMim.vue';
-import MeuContato from './components/MeuContato.vue'
+import MySkills from './components/MySkills.vue';
+import MeuContato from './components/MeuContato.vue';
 
 export default {
 
@@ -17,7 +19,8 @@ export default {
   components: {
     HomePage,
     SobreMim,
-    MeuContato
+    MeuContato,
+    MySkills
   }
 }
 </script>
@@ -32,5 +35,6 @@ export default {
   }
    .main {
     height: 100vh;
+    border-bottom: 5px solid #000;
    }
 </style>
