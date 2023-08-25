@@ -2,11 +2,11 @@
   <div class="main">
       <div class="container">
         <div class="title">
-            <h1>Sobre mim</h1>
+            <h2>Sobre mim</h2>
         </div>
         <div class="text_img">
             <img src="../../public/imgs/image-perfil.jpeg" alt="">
-            <p>aksjdklasjd</p>
+            <p>texto maneiro</p>
         </div>
     </div>
   </div>
@@ -28,17 +28,12 @@ export default {
     }
 
     .container {
-        background: red;
-        width: 60vw;
-        height: 60vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
+        width: 575px;
     }
 
     .text_img {
         display: flex;
+        width: 60vw;
     }
 
     .text_img p {
@@ -46,16 +41,20 @@ export default {
     }
 
     .text_img img {
-        width: 30vw;
-        height: 55vh;
+        width: 280px;
+        height: 450px;
     }
 
-    .title h1 {
+    .title h2 {
         background: #070303;
-        width: 60vw;
+        width: 575px;
         text-align: center;
         color: #fff;
         padding: 6px;
         border-radius: 10px;
+    }
+
+    .title {
+        margin-bottom: 100px;
     }
 </style>
