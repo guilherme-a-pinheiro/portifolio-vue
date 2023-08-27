@@ -84,4 +84,9 @@ export default {
     text-decoration: none;
     background: inherit;
   }
+  .github p a:hover {
+    color: #fff
+  }
+
+
 </style>
