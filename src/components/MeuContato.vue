@@ -52,7 +52,7 @@ export default {
 
   .texto p {
     max-width: 575px;
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .texto {
