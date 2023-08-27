@@ -6,7 +6,9 @@
         </div>
         <div class="text_img">
             <img src="../../public/imgs/image-perfil.jpeg" alt="">
-            <p>texto maneiro</p>
+            <p>Como um entusiasta desenvolvedor web, busco oportunidades desafiadoras para participar em projetos de impacto significativo. Minha jornada teve início em 2021, e desde então, tenho me dedicado ao aprendizado contínuo das inovações tecnológicas, principalmente focado no ecossistema Javascript e seus frameworks. Minha abordagem resiliente e apaixonada para superar obstáculos reflete minha busca constante por crescimento.<br>
+            Além de minha paixão pelo desenvolvimento, estou cursando Análise e Desenvolvimento de Sistemas desde 2022, enriquecendo minha compreensão teórica com aplicações práticas. Meu comprometimento se resume em três palavras: perseverança, dedicação e esforço.
+            </p>
         </div>
     </div>
   </div>
@@ -28,7 +30,7 @@ export default {
     }
 
     .container {
-        width: 575px;
+        max-width: 600px;
     }
 
     .text_img {
@@ -37,7 +39,8 @@ export default {
     }
 
     .text_img p {
-        margin: 0px 70px;
+        margin: 0px 0px 0px 40px;
+        max-width: 300px;
     }
 
     .text_img img {
@@ -47,7 +50,7 @@ export default {
 
     .title h2 {
         background: #070303;
-        width: 575px;
+        width: 600px;
         text-align: center;
         color: #fff;
         padding: 6px;
