@@ -22,7 +22,6 @@ export default {
 
 <style scoped>
     .main {
-        border-bottom: 5px solid #000;
         display: flex;
         flex-direction: row;
         justify-content: center;

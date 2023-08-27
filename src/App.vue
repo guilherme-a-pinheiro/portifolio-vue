@@ -31,10 +31,9 @@ export default {
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ecd3d3;
+    background-color: #dccbcb;
   }
    .main {
     height: 100vh;
-    border-bottom: 5px solid #000;
    }
 </style>
